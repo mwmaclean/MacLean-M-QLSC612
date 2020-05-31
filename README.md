@@ -3,7 +3,7 @@ Contributors : Michèle MacLean
 
 This exercise is part of the BrainHack QLSC6112 course and was designed to demonstrate how researchers can (easily) produce false positives or inflated prediction rates via **p-hacking**.
 
-# Objective
+## Objectives
 We were asked to generate a new variable (named `partY`) of random noise, add it to the existing `brainsize.csv` dataset and find associations using the existing variables in `brainsize.csv`. Then, we needed to generate a second, new variable (named `partY2`) also of random noise (with a different random seed) and re-run the same previous associations or prediction models using this new variable as the outcome measure.
 
 The variables included in the data set are: 1) Gender, 2) Full Scale IQ (FSIQ) 3) Verbal IQ (VIQ), 4) Performance IQ (PIQ), 5) Height, 6) Weight 7) Brain size (MRI_Count)
