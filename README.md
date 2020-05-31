@@ -22,17 +22,17 @@ These following steps will allow you to get a copy of the workflow up and runnin
 This mainly inludes the following:
 * pandas
 * numpy
-* matplotlib.pyplot
+* matplotlib
 * seaborn
 * scipy.stats
-* statsmodels.formula.api
+* statsmodels
 
 3. Run the jupyter notebook myanalysis.pynb which is in the 'Code' directory. 
-If you do not already have Jupyter, [Install] https://jupyter.org/install
+If you do not already have Jupyter [Install](https://jupyter.org/install)
 
 # Expected outputs 
 ## Included Figures
-* Combined scatter plots of all variables ('FSIQ', 'VIQ', 'PIQ', 'Weight', 'Height', 'MRI_Count', 'partY', 'partY2'):
+* Combined scatter plots of all variables:
     Fig 1. Scatter plots of variables 'FSIQ', 'VIQ', 'PIQ', 'Weight', 'Height', 'MRI_Count', 'partY' and 'partY2'
 * A figure showing the evoluton of p-values for both PIQ and brain size (MRI_Count) along with the choice of the partY threshold:
     Fig 2. Evolution of p-values for MRI_Count and PIQ
@@ -44,7 +44,7 @@ If you do not already have Jupyter, [Install] https://jupyter.org/install
 * Regression results for the 'partY' variable
 * Regression results for the second 'partY2' variable
 
-## Tools used to create this project:
+# Tools used to create this project
 This project relies on the following:
 * GitHub for forking a repository, renaming & assembling all the resources.
 * Python version 3.7.6, used with miniconda
