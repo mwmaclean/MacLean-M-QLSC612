@@ -1,7 +1,7 @@
 # MacLean-M-QLSC612 Practical Assignment
 Contributors : Michèle MacLean
 
-This exercise is part of the BrainHack QLSC6112 course and was designed to demonstrate how researchers can (easily) produce false positives or inflated prediction rates via p-hacking.
+This exercise is part of the BrainHack QLSC6112 course and was designed to demonstrate how researchers can (easily) produce false positives or inflated prediction rates via **p-hacking**.
 
 # Objective
 We were asked to generate a new variable (named `partY`) of random noise, add it to the existing `brainsize.csv` dataset and find associations using the existing variables in `brainsize.csv`. Then, we needed to generate a second, new variable (named `partY2`) also of random noise (with a different random seed) and re-run the same previous associations or prediction models using this new variable as the outcome measure.
@@ -28,24 +28,24 @@ This mainly inludes the following:
 * statsmodels
 
 3. Run the jupyter notebook myanalysis.pynb which is in the 'Code' directory. 
-If you do not already have Jupyter [Install](https://jupyter.org/install)
+If you do not already have Jupyter, you can also: [Install Here](https://jupyter.org/install)
 
 # Expected outputs 
 ## Included Figures
 * Combined scatter plots of all variables:
-    Fig 1. Scatter plots of variables 'FSIQ', 'VIQ', 'PIQ', 'Weight', 'Height', 'MRI_Count', 'partY' and 'partY2'
+    **Fig 1.** Scatter plots of variables 'FSIQ', 'VIQ', 'PIQ', 'Weight', 'Height', 'MRI_Count', 'partY' and 'partY2'
 * A figure showing the evoluton of p-values for both PIQ and brain size (MRI_Count) along with the choice of the partY threshold:
-    Fig 2. Evolution of p-values for MRI_Count and PIQ
+    **Fig 2.** Evolution of p-values for MRI_Count and PIQ
 * A linear regression showing the association of BMI with PIQ and brain size (MRI_Count) for individuals with a high partY score: 
-    Fig 3. a) MRI_Count as a function of BMI b)PIQ as a function of BMI
+    **Fig 3.** a) MRI_Count as a function of BMI b)PIQ as a function of BMI
 
 ## Outputs for statistical tests
 * Descriptive statistics of all variables, including variables 'partY' and 'partY2' (e.g. count, mean, standard deviation)
 * Regression results for the 'partY' variable
 * Regression results for the second 'partY2' variable
 
-# Tools used to create this project
-This project relies on the following:
+# Tools
+This project relies on the following tools:
 * GitHub for forking a repository, renaming & assembling all the resources.
 * Python version 3.7.6, used with miniconda
 * Jupyter Notebook to create and document the code and analyze data 
