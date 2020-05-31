@@ -30,8 +30,8 @@ This mainly inludes the following:
 3. Run the jupyter notebook myanalysis.pynb which is in the 'Code' directory. 
 If you do not already have Jupyter, [Install] https://jupyter.org/install
 
-## Expected outputs 
-# Included Figures
+# Expected outputs 
+## Included Figures
 * Combined scatter plots of all variables ('FSIQ', 'VIQ', 'PIQ', 'Weight', 'Height', 'MRI_Count', 'partY', 'partY2'):
     Fig 1. Scatter plots of variables 'FSIQ', 'VIQ', 'PIQ', 'Weight', 'Height', 'MRI_Count', 'partY' and 'partY2'
 * A figure showing the evoluton of p-values for both PIQ and brain size (MRI_Count) along with the choice of the partY threshold:
@@ -39,7 +39,7 @@ If you do not already have Jupyter, [Install] https://jupyter.org/install
 * A linear regression showing the association of BMI with PIQ and brain size (MRI_Count) for individuals with a high partY score: 
     Fig 3. a) MRI_Count as a function of BMI b)PIQ as a function of BMI
 
-# Outputs for statistical tests
+## Outputs for statistical tests
 * Descriptive statistics of all variables, including variables 'partY' and 'partY2' (e.g. count, mean, standard deviation)
 * Regression results for the 'partY' variable
 * Regression results for the second 'partY2' variable
